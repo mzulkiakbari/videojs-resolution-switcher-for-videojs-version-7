@@ -11,8 +11,17 @@ Check out this [demo](http://bariartz.github.io/videojs-by-pp).
 
 ## Getting Started
 
-Get plugin from this Github.
+Install plugin from:
 
+### NPM
+``` npm install videojs-resolution-switcher-vjs7 --save ```
+
+### CDN
+#### CSS
+``` <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher-vjs7@1.0.0/videojs-resolution-switcher.css"> ```
+
+#### SCRIPT
+``` <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher-vjs7@1.0.0/videojs-resolution-switcher.js"></script> ```
 
 ### Setup sources dynamically:
 
@@ -232,3 +241,5 @@ Returns sources grouped by label, resolution and type.
 ### resolutionchange `EVENT`
 
 > Fired when resolution is changed
+
+### Do you want VideoJS Resolution Switcher with interest feature? Like when you select 720p quality will show label "HD". Support me please!
