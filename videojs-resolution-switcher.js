@@ -1,6 +1,6 @@
-  /*! videojs-resolution-switcher - 2015-7-26
+  /*! videojs-resolution-switcher for VideoJS Version 7+ - 2020-7-17
  * Copyright (c) 2016 Kasper Moskwiak
- * Modified by Pierre Kraft and Derk-Jan Hartman
+ * Modified by Bari Artz from Poko - https://facebook.com/pokonimeii
  * Licensed under the Apache-2.0 license. */
 
 (function() {
