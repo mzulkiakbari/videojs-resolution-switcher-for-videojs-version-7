@@ -174,11 +174,13 @@
         if(this.player_.techName_ !== 'Youtube' && this.player_.preload() === 'none' && this.player_.techName_ !== 'Flash') {
           handleSeekEvent = 'timeupdate';
         }
-        player
+         player
           .setSourcesSanitized(sources, label, customSourcePicker || settings.customSourcePicker)
           .one(handleSeekEvent, function() {
             player.currentTime(currentTime);
-            
+            if (!isPaused && player.paused()) {
+              player.play()
+            }
             player.trigger('resolutionchange');
           });
         return player;
